@@ -1,6 +1,6 @@
 {% set name = "fenicsx-pulse" %}
 {% set python_min = "3.10" %}
-{% set version = "0.5.2" %}
+{% set version = "0.5.3" %}
 
 package:
   name: "{{ name|lower }}"
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/fenicsx_pulse-{{ version }}.tar.gz
-  sha256: 97e4b97290379a2508439647b279ccf4a45bda8ce444491a86ec0281cacf8ca0
+  sha256: 0bf4099a91ac14d6fcce2306bea9caabc3367eb9897d68e8ce18f0d0f30b4df4
 
 build:
   number: 0
